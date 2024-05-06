@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.menu-contaier {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+
+.menu {
+  background-color: blue;
+  margin: -8px;
+  padding: 35px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.line-one {
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  width: 80%;
+  bottom: 43px;
+  left: -30%;
+  transform: rotate(-5deg);
+}
+
+.line-two {
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  width: 80%;
+  bottom: 43px;
+  right: -30%;
+  transform: rotate(5deg);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  position: relative;
+  bottom: 20px;
+}
+
+.menu-item-one {
+  float: left;
+  list-style: none;
+}
+
+.menu-item-two {
+  float: right;
+  list-style: none;
+}
+
+.section {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+}
